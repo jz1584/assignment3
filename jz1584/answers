@@ -1,0 +1,33 @@
+1.ANS: posixpath.py
+Ipython command:  os.path.abspath?
+File:       /usr/lib/python2.7/posixpath.py
+
+
+2.ANS: the following is the single command:
+Ipython command:  num=!ls /etc |wc -l
+
+
+3.ANS: the value is 15.231546211727817
+Ipython command:
+import math
+math.sqrt(float(num[0]))
+output:  15.231546211727817
+
+
+4.ANS: x*x is the fastest operation
+Ipython command:
+import numpy as np
+x=12345
+
+%timeit x**2
+10000000 loops, best of 3: 72.4 ns per loop
+
+%timeit x*x
+10000000 loops, best of 3: 51.9 ns per loop
+
+%timeit np.square(x)
+1000000 loops, best of 3: 1.49 µs per loop
+
+5.ANS: There are 24 cell magic commands
+Ipython command:  %lsmagic
+
